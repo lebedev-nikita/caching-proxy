@@ -17,7 +17,7 @@ const webpages = new CachingProxy({
 
 // prints "fetch"
 await webpages.get({ url: "https://google.com" });
-// does not print "fetch" because the response is already cached
+// does not print "fetch" because the response has already been cached
 await webpages.get({ url: "https://google.com" });
 process.exit(0);
 ```
