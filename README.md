@@ -1,5 +1,5 @@
 ```ts
-import { CachingProxy } from "@lebedev/caching-proxy";
+import { CachingProxy } from "@y87cgp/caching-proxy";
 
 const webpages = new CachingProxy({
   maxCount: 10,
